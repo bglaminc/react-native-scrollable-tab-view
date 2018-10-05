@@ -10,7 +10,7 @@ const SceneComponent = (Props) => {
   return <View {...props}>
       <StaticContainer shouldUpdate={shouldUpdated}>
         {props.children}
-      </StaticContainer>
+        </StaticContainer>
   </View>;
 };
 
